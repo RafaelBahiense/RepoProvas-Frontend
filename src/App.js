@@ -6,6 +6,7 @@ import ResetCSS from "./styles/ResetCSS";
 import Home from "./components/home/Home";
 import Professors from "./components/professors/Professors";
 import Professor from "./components/professors/Professor";
+import Subjects from "./components/subjects/subjects";
 
 export default function App() {
   useEffect(() => {
@@ -31,7 +32,7 @@ export default function App() {
             <Professor/>
           </Route>
           <Route path="/disciplinas" exact={true}>
-
+            <Subjects/>
           </Route>
           <Route path="/enviar-prova" exact={true}>
 
